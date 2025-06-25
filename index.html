@@ -15,11 +15,12 @@
 
     <main>
         <form id="todo-form">
-         <label for="todo-input">Nueva tarea:</label>
+         <label for="todo-input" class="visually-hidden">Nueva tarea:</label>
          <input
             type="text"
             id="todo-input"
             placeholder="Escribe tu tarea aquí..."
+            aria-label="Nueva tarea"
             autocomplete="off"
         >
         <button type="submit">Agregar</button> 
