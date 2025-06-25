@@ -43,3 +43,8 @@ todoForm.addEventListener('submit', event => {
     todoInput.value = '';
     todoInput.focus();
 })
+
+const yearSpan = document.getElementById('year');
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
